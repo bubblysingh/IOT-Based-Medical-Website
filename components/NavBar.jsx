@@ -40,6 +40,9 @@ const NavBar = () => {
         <NavLink to="/doctors" className={({ isActive }) => isActive ? "text-[#4361ee]" : "hover:text-[#4361ee]"}>
           <li>ALL DOCTORS</li>
         </NavLink>
+        <NavLink to="/readings" className={({ isActive }) => isActive ? "text-[#4361ee]" : "hover:text-[#4361ee]"}>
+          <li>READINGS</li>
+        </NavLink>
         <NavLink to="/about" className={({ isActive }) => isActive ? "text-[#4361ee]" : "hover:text-[#4361ee]"}>
           <li>ABOUT</li>
         </NavLink>
@@ -90,6 +93,9 @@ const NavBar = () => {
             </NavLink>
             <NavLink to="/doctors" className={({ isActive }) => isActive ? "block w-full py-2 text-[#4361ee]" : "block w-full py-2 hover:text-[#4361ee]"}>
               ALL DOCTORS
+            </NavLink>
+            <NavLink to="/readings" className={({ isActive }) => isActive ? "block w-full py-2 text-[#4361ee]" : "block w-full py-2 hover:text-[#4361ee]"}>
+              READINGS
             </NavLink>
             <NavLink to="/about" className={({ isActive }) => isActive ? "block w-full py-2 text-[#4361ee]" : "block w-full py-2 hover:text-[#4361ee]"}>
               ABOUT US

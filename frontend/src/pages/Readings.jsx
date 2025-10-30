@@ -181,11 +181,8 @@ const Readings = () => {
   return (
     <div className="container py-3">
       <div className="d-flex justify-content-between align-items-start mb-3">
-        <div>
-          <h3 className="m-0">✨ Health Monitor</h3>
           <div className="text-zinc-500">Live vitals from ESP devices</div>
-        </div>
-        <div className="d-flex gap-2 align-items-center">
+          <div className="d-flex gap-2 align-items-center">
           <select 
             className="form-select form-select-sm" 
             style={{width: '260px'}}
